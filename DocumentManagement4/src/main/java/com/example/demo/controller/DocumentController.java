@@ -16,4 +16,9 @@ public class DocumentController {
 
 		return ds.printDocument();
 	}
+	@GetMapping("login")
+	public String get()
+	{
+		return  "Welcome";
+	}
 }
